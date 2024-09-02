@@ -1,0 +1,42 @@
+
+### .gitignore
+
+Para garantir que arquivos desnecessários ou sensíveis não sejam adicionados ao repositório, você deve configurar um `.gitignore`. Aqui está um exemplo básico para um projeto SQL:
+
+Descrição do Projeto
+Desenvolver um sistema de banco de dados para gerenciar produtos, clientes e vendas em uma loja local. O objetivo é criar um sistema que permita a administração eficiente das informações relacionadas a produtos, clientes e transações de vendas.
+
+Requisitos
+Criação do Banco de Dados
+
+Crie um banco de dados chamado sistema_vendas.
+Criação das Tabelas
+
+Tabela de Clientes: Contém identificador único, nome, email e telefone.
+Tabela de Produtos: Contém identificador único, nome, preço e quantidade em estoque.
+Tabela de Vendas: Registra cada venda com identificador único, identificador do cliente, identificador do produto, quantidade vendida e data da venda.
+Inserção de Dados
+
+Insira pelo menos 3 clientes, 3 produtos e 5 vendas no banco de dados.
+Consultas e Relatórios
+
+Crie uma consulta que mostre todas as vendas realizadas, incluindo o nome do cliente e o nome do produto.
+Crie uma consulta que mostre todas as compras realizadas por um cliente específico.
+Crie uma consulta que exiba o total de vendas realizadas por produto.
+Atualização e Deleção de Dados
+
+Implemente uma operação para atualizar o estoque de um produto após uma venda.
+Implemente uma operação para atualizar as informações de um cliente.
+Implemente uma operação para deletar uma venda e, se necessário, deletar o cliente associado.
+Validação e Testes
+
+Teste todas as operações implementadas para garantir o funcionamento correto do sistema.
+Entrega
+Um arquivo SQL contendo os comandos necessários para criar o banco de dados, tabelas e inserir os dados.
+Um relatório com screenshots das consultas realizadas e uma breve explicação de como as operações foram implementadas.
+Critérios de Avaliação
+Correção: Precisão na criação do banco de dados, tabelas e operações SQL.
+Completação: Inclusão de todos os requisitos solicitados.
+Clareza: Organização e legibilidade do código SQL e do relatório.
+Funcionalidade: Capacidade do sistema de realizar as operações corretamente e de gerar os relatórios esperados.
+
