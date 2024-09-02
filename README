@@ -1,0 +1,24 @@
+# Sistema de Gerenciamento de Vendas
+
+Este projeto implementa um sistema de gerenciamento de vendas para uma loja local. O objetivo é criar um banco de dados para gerenciar informações sobre produtos, clientes e vendas realizadas. O sistema permite administrar eficientemente as informações e realizar consultas, atualizações e deleções de dados.
+
+## Estrutura do Projeto
+
+1. **Criação do Banco de Dados e Tabelas**: Define o banco de dados `sistema_vendas` e cria as tabelas necessárias: `Clientes`, `Produtos` e `Vendas`.
+
+2. **Inserção de Dados**: Insere dados iniciais nas tabelas de `Clientes`, `Produtos` e `Vendas`.
+
+3. **Consultas e Relatórios**: Inclui consultas para visualizar todas as vendas realizadas, compras de um cliente específico e o total de vendas por produto.
+
+4. **Atualização e Deleção de Dados**: Fornece comandos para atualizar o estoque de produtos, atualizar informações de clientes e deletar vendas e clientes.
+
+## Arquivos
+
+- `sistema_vendas.sql`: Contém os comandos SQL para criação do banco de dados, tabelas, inserção de dados, consultas e operações de atualização e deleção.
+
+## Como Executar
+
+1. **Clone o Repositório**
+
+   ```bash
+   git clone https://github.com/seuusuario/sistema-gerenciamento-vendas.git
